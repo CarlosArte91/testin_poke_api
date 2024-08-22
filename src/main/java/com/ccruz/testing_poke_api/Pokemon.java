@@ -6,14 +6,14 @@ package com.ccruz.testing_poke_api;
  */
 public class Pokemon {
     private int id;
-    private String url;
+    private String name;
     private String image;
     
     public Pokemon() {}
     
-    public Pokemon(int id, String url, String image) {
+    public Pokemon(int id, String name, String image) {
         this.id = id;
-        this.url = url;
+        this.name = name;
         this.image = image;
     }
 
@@ -25,12 +25,12 @@ public class Pokemon {
         this.id = id;
     }
 
-    public String getUrl() {
-        return url;
+    public String getName() {
+        return name;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getImage() {
